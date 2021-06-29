@@ -2,7 +2,7 @@
 
 export const authEndpoint = 'https://accounts.spotify.com/authorize';
 
-const redirectUrl = "http://localhost:8888/callback"; //where are you running your app (local react by default is http://localhost:3000/
+const redirectUrl = "https://accounts.spotify.com/authorize?client_id=d3384f96a6054701a7cf023eb714c440&redirect_uri=https://spotify-clone12.herokuapp.com/&scopes=user-read-currently-playing%20user-read-recently-played%20user-read-playback-state%20user-top-read%20user-modify-playback-state&response_type=token&show_dialog=true"; //where are you running your app (local react by default is http://localhost:3000/
 const clientId = 'd3384f96a6054701a7cf023eb714c440'; // clintId you can get at https://developer.spotify.com/dashboard
 
 /**
