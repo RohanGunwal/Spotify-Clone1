@@ -2,7 +2,7 @@
 
 export const authEndpoint = 'https://accounts.spotify.com/authorize';
 
-const redirectUrl = window.location.origin + '/'; //where are you running your app (local react by default is http://localhost:3000/
+const redirectUrl = "http://localhost:8888/callback"; //where are you running your app (local react by default is http://localhost:3000/
 const clientId = 'd3384f96a6054701a7cf023eb714c440'; // clintId you can get at https://developer.spotify.com/dashboard
 
 /**
